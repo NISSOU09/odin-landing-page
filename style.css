@@ -1,0 +1,184 @@
+.logo{
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 5%;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+    margin-right: 5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    /* border: solid black 3px; */
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    /* border: solid red ; */
+    padding: 30px;
+    margin-bottom: 10px;
+    flex: 1;
+    gap: 20px;
+    background-image: url(img/trounoir-4mo.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.title_box {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.text_title {
+    color: white;
+    font-size: 48PX;
+    font-weight: bolder;
+    justify-self: flex-start;
+}
+
+.text {
+    /* border: solid purple 5px; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text button {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 110%;
+}
+
+.photo {
+    flex: 1;
+    /* border: solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 70%;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.infos_title {
+    display: flex;
+    justify-content: center;
+}
+
+.infos_elements {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.infos_element {
+    margin: 5px;
+    gap: 8px;
+}
+
+.infos_element img {
+    border: solid #3882F6;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+}
+
+.infos_element .smalltext {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    font: italic;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20%;
+    gap: 10px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.signing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 5% 2%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.signing .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.signing button {
+    color: white;
+    background-color: #3882F6;
+    border: solid white 1px;
+    padding: 2px 10px;
+    border-radius: 10px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5%;
+    color: white;
+}
+
+button:hover{
+    color: red;
+}
